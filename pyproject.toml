@@ -1,0 +1,22 @@
+[project]
+name = "real-estate-intelligence-platform"
+version = "1.0.0"
+description = "Professional Real Estate Analytics Platform with ML-powered price predictions and investment analysis"
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit>=1.45.1",
+    "pandas>=2.3.0",
+    "numpy>=2.3.0",
+    "plotly>=6.1.2",
+    "scikit-learn>=1.7.0",
+    "sqlalchemy>=2.0.41",
+    "psycopg2-binary>=2.9.10",
+    "openai>=1.86.0",
+    "xgboost>=3.0.2",
+    "joblib>=1.5.1",
+    "requests>=2.32.4",
+    "beautifulsoup4>=4.13.4",
+    "trafilatura>=2.0.0",
+    "reportlab>=4.4.1",
+    "markdown>=3.8",
+]
